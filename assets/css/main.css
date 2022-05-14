@@ -1,0 +1,127 @@
+#root{
+    width: 100%;
+    height:auto ;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background: #466BD9;
+    height: 100vh;
+    color: #D2CEEE;
+    padding: 18px;
+}
+hr {
+    width: 100%;
+}
+.sidebar-item {
+    width: 8rem;
+    text-align: start;
+}
+.sidebar-item h6,h5{
+    margin-left: 10px;
+    font-size: .85rem;
+}
+.logo {
+    width: 9rem;
+
+}
+.logo h5 {
+line-height: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+ }
+i{
+    color: #90a7eb;
+}
+i.fa-face-laugh-wink {
+    font-size: 2rem;
+    transform: rotate(-25deg);
+    color: #ffffff;
+}
+.caption {
+    font-size: .65rem;
+    color: #90a7eb;
+    font-weight: bold;
+}
+.fa-gauge-high {
+    color: #ffffff;
+}
+.active {
+    font-size: .85rem;
+    font-weight: bold;
+}
+.fa-circle-chevron-left {
+    font-size: 2rem;
+}
+header {
+    height: 75px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 10px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+}
+.avatar {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-left: 10px;
+}
+.separator {
+    height: 50px;
+    width: 2px;
+    background-color:#90a7eb ;
+}
+#search {
+    width: 300px;
+    border-radius: 5px;
+    background-color: #F8F9FC;
+    border: none;
+    height: 40px;
+    padding: 10px;
+}
+#search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #8595C2;
+    font-size: .85rem;
+
+
+}
+
+#search:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #8595C2;
+    font-size: .85rem;}
+
+#search::-ms-input-placeholder { /* Microsoft Edge */
+    color: #8595C2;
+    font-size: .85rem;}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #4E73DF;
+    width: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.search-icon i {
+    color: white;
+}
+.notification,.envelope{
+    position: relative;
+}
+main{
+    background-color: #F8F9FC;
+}
+.badge{
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    font-size: 0.5rem !important;
+}
